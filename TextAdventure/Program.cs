@@ -6,12 +6,13 @@ using System.Text;
 
 namespace TextAdventure
 {
-    class Program
+    static class Program
     {
+        public static string adventurePath = "adv";
         static void Main(string[] args)
         {
             // Let's check if there's an adventure.
-            loader adventureLoader = new loader("adv");
+            GameManager gameMan = new GameManager(adventurePath);
             Console.ReadLine();
 
         }
