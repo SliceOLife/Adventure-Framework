@@ -1,7 +1,7 @@
-AdventureGenerator
+Adventure-Framework
 ==================
 
-Generating text adventures in C#!
+A framework for easily creating TextAdventures in C#
 
 Examples can be found in the ini-examples folder.
 
